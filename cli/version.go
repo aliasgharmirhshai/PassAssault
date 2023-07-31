@@ -1,9 +1,9 @@
 package cmd
 
-import (
-	"fmt"
-	"github.com/spf13/cobra"
-)
+
+func Ver() string {
+	return ("Version")
+}
 
 // func init() {
 // 	rootCmd.AddCommand(versionCmd)
